@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: aqua;
+    height: 100vh;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.card-container{
+    margin: 30px;
+    background-color: white;
+    width: 80%;
+    padding: 15px;
+    padding-left: 30px;
+    font-style: "Times New Roman ";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heading{
+    font-size: 30px;
+    font-style: "Times New Roman ";
+
+}
+.top{
+    display: flex;
+}
+.smile{
+    padding-top: 25px;
+    padding-left: 15px;
+    width: 20px;
+}
+.links{
+    margin: 10px;
+}
+.bottom{
+    margin-top: 40px;
+}
+#adding{
+    margin-top: 30px;
+}
+.success{
+    color: rgb(72, 227, 72);
+    font-weight: bold;
+}
+.notsuccess{
+    color: rgb(242, 67, 67);
+    font-weight: bold;
+}
+.dhoniimage{
+    height: 200px;
+}
+.not-success{
+    width: 200px;
+    height: 200px;
+}
+.button{
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: rgb(137, 140, 142);
+    border-width: 0px;
+}
+#entry{
+    border-radius: 5px;
+    background-color: rgb(173, 174, 175);
+    border-width: 0px;
+    height: 40px;
+}
+.celebration{
+    background-image: url(sflowers.gif);
+    background-size: cover;
+    height: 550px;
+}
