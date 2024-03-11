@@ -3,7 +3,7 @@
 }
 
 .container{
-    background-color: aqua;
+    background-color: rgb(233, 234, 237);
     height: 100vh;
     padding-bottom: 50px;
     display: flex;
