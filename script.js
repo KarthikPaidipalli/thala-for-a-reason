@@ -7,7 +7,7 @@ submitBtn.onclick = function(event) {
     addingcontainer.textContent="";
     let valueOfGiven = input.value;
 
-    if (!isNaN(valueOfGiven) && Number.isInteger(parseFloat(valueOfGiven))) {
+    if (Number.isInteger(parseFloat(valueOfGiven))) {
         let sum = 0;
         for (let i = 0; i < valueOfGiven.length; i++) {
             sum += parseInt(valueOfGiven.charAt(i), 10);
@@ -77,7 +77,7 @@ submitBtn.onclick = function(event) {
         }
         else{
             let headingelement=document.createElement("h2");
-            headingelement.textContent="No Thala For A Reason"
+            headingelement.textContent="No Thala For You"
             headingelement.classList.add("notsuccess");
             addingcontainer.appendChild(headingelement);
             let imageElement = document.createElement("img");
